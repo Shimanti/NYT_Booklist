@@ -48,6 +48,17 @@ body {
   width: 60px;
 }
 
-.book-list .book-name, .book-author {
+.book-list .book-name, .book-author{
   margin: 5px 20px 0px 10px;
 }
+
+.book-list .book-url {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.book-list .book-url:hover {
+  color: black;
+}
+
