@@ -1,5 +1,5 @@
-# NYT_Booklist
-Current List of New York Times Bestsellers using NYT API
+# NYT Booklist
+Current List of New York Times Bestsellers using NY Times API
 - Links to Amazon referral
 - Vanilla javascript version
 
