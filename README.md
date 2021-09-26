@@ -1,2 +1,7 @@
 # NYT_Booklist
-Current List of New York Times Bestsellers
+Current List of New York Times Bestsellers using NYT API
+- Links to Amazon referral
+- Vanilla javascript version
+
+# Run
+https://bestsellers-nyt.netlify.app
