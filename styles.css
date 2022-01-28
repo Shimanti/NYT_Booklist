@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+:root {
+  --border-color: #e3e5e4;
+  --background-color: #c3c7ca;
+  --text-color: #34444f;
+  --button-background-color: navy;
+  --button-text-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h3 {
+  margin: 10px;
+}
+
+.book-list {
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  padding: 0;
+  list-style-type: none;
+}
+
+.book-list li {
+  background-color: #fff;
+  display: flex;
+  flex: 1;
+}
+
+.book-list li:not(:last-of-type) {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.book-list .number {
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  height: 60px;
+  width: 60px;
+}
+
+.book-list .book-name, .book-author{
+  margin: 5px 20px 0px 10px;
+}
+
+.book-list .book-url {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.book-list .book-url:hover {
+  color: black;
+}
+
+button {
+  border-radius: 30px;
+  border: 2px solid var(--button-background-color);
+  color: var(--button-text-color);
+  background-color: var(--button-background-color);
+  padding: 1rem;
+  font-size: 1rem;
+}
